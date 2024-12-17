@@ -1,0 +1,7 @@
+# this is a git pull test
+---
+# httpd role
+- hosts: host1
+  remote_user: opc
+  roles:       #调用角色
+    - role: httpd 
